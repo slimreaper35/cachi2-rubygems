@@ -1,0 +1,4 @@
+---
+BUNDLE_FORCE_RUBY_PLATFORM: "true"
+BUNDLE_CACHE_ALL: "true"
+BUNDLE_CACHE_PATH: "cachi2-output/deps/rubygems"
