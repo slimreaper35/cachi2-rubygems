@@ -1,5 +1,7 @@
-source 'https://rubygems.org'
+# frozen_string_literal: true
 
-gem 'rails', '= 6.1.7'
+source "https://rubygems.org"
 
-gem 'foobar', path: '/app/cachi2-output/deps/rubygems/foobar'
+gemspec
+
+gem "rails", "= 6.1.7"
