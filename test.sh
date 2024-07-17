@@ -1,5 +1,7 @@
 #!/bin/bash
 
+bundle cache
+
 podman build . \
   --volume "$(realpath ./cachi2-output)":/app/cachi2-output:Z \
   --network none \
