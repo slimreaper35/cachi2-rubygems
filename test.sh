@@ -1,6 +1,6 @@
 #!/bin/bash
 
-bundle cache
+cachi2 fetch-deps rubygems
 
 podman build . \
   --volume "$(realpath ./cachi2-output)":/app/cachi2-output:Z \
